@@ -16,7 +16,7 @@ public class UdkSiteParser {
     public static void main(String[] args) throws IOException {
         System.setOut(new PrintStream(new FileOutputStream("udk.txt"), true, StandardCharsets.UTF_8));
 
-        getHierarchy(HTTPS_WWW_TEACODE_COM_ONLINE_UDC, 0, 50);
+        getHierarchy(HTTPS_WWW_TEACODE_COM_ONLINE_UDC, 0, 15);
     }
 
     public static void getHierarchy(String url, int level, int stopLevel) {
