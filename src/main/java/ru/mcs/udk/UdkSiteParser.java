@@ -14,7 +14,7 @@ public class UdkSiteParser {
     public static final String HTTPS_WWW_TEACODE_COM_ONLINE_UDC = "https://www.teacode.com/online/udc";
 
     public static void main(String[] args) throws IOException {
-        System.setOut(new PrintStream(new FileOutputStream("out.txt"), true, StandardCharsets.UTF_8));
+        System.setOut(new PrintStream(new FileOutputStream("udk.txt"), true, StandardCharsets.UTF_8));
 
         getHierarchy(HTTPS_WWW_TEACODE_COM_ONLINE_UDC, 0, 1000);
 
